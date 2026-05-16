@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'leonra Regular', serif;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+.extra-header {
+    background-color: #6B0606;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    /* letter-spacing: 5px; */
+}
+.extra-header p {
+    font-family: Grift, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.2rem;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li {
+    list-style-type: none;
+}
+header nav ul li a{
+    display: inline-block;
+    padding: 1.2rem;
+    text-decoration: none;
+    color: #6B0606;
+}
+header nav ul li a img {
+    width: 5rem;
+    padding-bottom: 1rem;
+    border-bottom: #6B0606 5px solid;
+}
+.other-icons {
+    display: flex;
+    padding: 1.2rem;
+    justify-content: space-around;
+}
+.hero-section {
+}
+.section-header {
+    background-image: url(../AizandAura-light-icon@10x.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;;
+    font-size: 4.8rem;
+    text-align: center;
+    color: #6B0606;
+}
+.hero-section img {
+    margin-top: 1.2rem;
+    width: 100%;
+}
+.services {
+    padding: 2.4rem;
+}
+.services h2, .heading-2 {
+    font-size: 3.6rem;
+    color: #6B0606;
+    text-align: center;
+    line-height: 1.1;
+    letter-spacing: 0.2rem;
+    width: 60%;
+    margin: auto;
+}
+.services p {
+    font-size: 1.4rem;
+    color: #666;
+    text-align: center;
+    line-height: 1.4;
+    width: 60%;
+    margin: auto;
+    margin-top: 1.2rem;
+    font-family: Grift, Helvetica, sans-serif;
+}
+.service-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 2.4rem;
+}
+.service-card article {
+    width: 25rem;
+    height: 25rem;
+    position: relative;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    background-color: #000;
+}
+.service-card article > img  {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.service-card .text {
+    position: absolute;
+    bottom: 1.2rem;
+    left: 1.2rem;
+    font-size: 2.4rem;
+    color: #fff;
+}
+.service-card .service-icon {
+    display: flex;
+    align-items: start;
+}
+.service-card .service-icon img {
+    width: 5rem;
+    background-color: #ffffff;
+    padding: 1.2rem;
+    border-radius: 0.6rem;
+    margin-right: 1.2rem;
+}
+
+
+.our-feature {
+    background-color: #F3E2D5;
+    padding: 4.8rem 10%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.our-feature article {
+    width: 25rem;
+}
+.our-feature article img {
+    width: 5rem;
+}
+.our-feature article h2 {
+    font-family: Grift, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    color: #6B0606;
+}
+.our-feature article p, .para {
+    font-family: Grift, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    color: #666;
+}
+.follow-us {
+    padding: 4.8rem 10%;
+    text-align: center;
+}
+footer {
+    background-color: #DFBFA8;
+    padding: 4.8rem;
+}
+footer .logo {
+    background-image: url(../AizandAura-light-icon@10x.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #6B0606;
+    text-align: center;
+}
+footer .logo img  {
+    width: 25rem;
+}
+footer .logo h2 {
+    font-size: 4.8rem;
+    line-height: 1.1;
+}
+footer .logo p {
+    font-size: 1.6rem;
+    font-family: Grift, Arial, Helvetica, sans-serif;
+}
