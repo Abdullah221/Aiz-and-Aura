@@ -59,6 +59,11 @@ header nav ul li a img {
     font-size: 4.8rem;
     text-align: center;
     color: #6B0606;
+    line-height: 1.2;
+}
+.section-header p {
+    font-size: 1.8rem;
+    line-height: 1.5;
 }
 .hero-section img {
     margin-top: 1.2rem;
