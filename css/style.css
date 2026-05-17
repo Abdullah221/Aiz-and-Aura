@@ -23,7 +23,17 @@ html {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1.2rem;
+    padding: 1.2rem 3.6rem;
+    font-size: 1.6rem;
+}
+header .social-media-icon {
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+header .social-media-icon a {
+    text-decoration: none;
+    color: #6B0606;
     font-size: 1.6rem;
 }
 header nav ul {
@@ -45,6 +55,7 @@ header nav ul li a img {
     border-bottom: #6B0606 5px solid;
 }
 .other-icons {
+    width: 10rem;
     display: flex;
     padding: 1.2rem;
     justify-content: space-around;
@@ -182,3 +193,71 @@ footer .logo p {
     font-size: 1.6rem;
     font-family: Grift, Arial, Helvetica, sans-serif;
 }
+
+/* General */
+.page-heading {
+    font-family: 'Pastelheart', Arial;
+    font-weight: 300;
+}
+.info {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 4.8rem 10%;
+}
+.info-box{
+    border: 2px solid #6B0606;
+    width: 30rem;
+    padding: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+.info-box::after{
+    border: 2px solid #6B0606;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    rotate: 2deg;
+}
+.info-box:hover {
+    background-color: #6B0606;
+    color: #fff;
+    transition: 0.3s;
+}
+.info h3 {
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+}
+.info-box p {
+    font-family: Grift, Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+@media screen and (max-width:35rem) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+        padding: 1.2rem;
+    }
+    header nav ul li a img{
+        width: 3rem;
+    }
+    nav {
+        width: 100%;
+    }
+    .other-icons {
+        display: none;
+    }
+    .info {
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+}
+
+
+
